@@ -1,0 +1,38 @@
+# 資料集（太大，不上傳）
+CAIL2018_ALL_DATA/
+data/
+
+# 模型 checkpoint（.pt 檔案太大）
+saved_model_v4/
+checkpoints/
+checkpoints_frozen/
+*.pt
+
+# Log 檔
+*.log
+train_frozen.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 虛擬環境
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
