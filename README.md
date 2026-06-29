@@ -74,7 +74,7 @@ CAIL2018（中國法研杯司法人工智能挑战赛）
 
 資料來源：[CAIL2018 官方](https://github.com/china-ai-law-challenge/CAIL2018)
 
-> 資料檔案不包含在此 repo 中，請自行下載後放置於 `CAIL2018_ALL_DATA/no_repeat_data/` 目錄。
+> 資料檔案不包含在此 repo 中。
 
 ---
 
