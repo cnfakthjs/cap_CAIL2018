@@ -90,12 +90,12 @@ pip install -r requirements.txt
 
 **主實驗訓練（main 分支）：**
 ```bash
-python train_electra_v2.py
+python script.py
 ```
 
 **對照實驗訓練（compare 分支）：**
 ```bash
-python script_electra_base_finetune.py
+python script_compare.py
 ```
 
 路徑設定在各腳本的 `class Args` 內，依實際資料位置修改。
