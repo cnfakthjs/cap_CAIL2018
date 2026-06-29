@@ -1,12 +1,12 @@
 """
-train_electra_v2.py
+script.py
 ====================
 CAIL2018 罪名多標籤預測｜ELECTRA-base 全參數 fine-tuning
 模型：hfl/chinese-legal-electra-base-discriminator
 結果：Test Micro F1 = 0.8318、Test Macro F1 = 0.7476（8 epoch）
 
 使用方式：
-    python train_electra_v2.py
+    python script.py
 路徑設定在下方 class Args，依實際位置修改。
 """
 
