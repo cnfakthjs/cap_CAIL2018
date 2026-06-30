@@ -24,6 +24,26 @@
 
 ---
 
+## 實驗結果（compare 分支）
+
+與組員僅改動骨幹模型大小，其餘（pooling、dropout、pos_weight、freeze 策略）皆對齊：
+
+|  | 本實驗（ELECTRA-base） |
+|---|---|
+| 類別數 | 160 |
+| 訓練模式 | 全參數 fine-tuning |
+| Epoch | 1 |
+| Pooling | Attention Pooling |
+| Dropout | 0.1 |
+| pos_weight | min(neg/pos, 10) |
+| Valid Macro F1 | 0.7361 |
+| Test Macro F1  | 0.7239 |
+| Test Micro F1 | 0.7590 |
+
+> 僅 1 epoch 下未充分收斂，目的是在控制變因的前提下比較模型規模對學習速度的影響。
+
+---
+
 ## 模型架構
 
 ```
